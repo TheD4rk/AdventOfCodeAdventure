@@ -1,21 +1,14 @@
 ﻿using System;
 using System.IO;
 
-namespace AdventOfCodeAdventure.SonarSweep
+namespace AdventOfCodeAdventure.Day01
 {
     public class SonarSweep
     {
-        static void Main(string[] args)
-        {
-            SonarSweep sonarSweep = new SonarSweep();
-            sonarSweep.ScanFile();
-        }
-
-        private void ScanFile()
+        public void ScanFile()
         {
             string filePath = "D:/Repository/AdventOfCodeAdventure/SonarSweep/SonarSweepLines.txt";
-            Console.WriteLine(filePath);
-            
+
             if (File.Exists(filePath))
             {
                 int measurements = 0;
