@@ -2,6 +2,7 @@
 using AdventOfCodeAdventure.Day_01;
 using AdventOfCodeAdventure.Day_02;
 using AdventOfCodeAdventure.Day_03;
+using AdventOfCodeAdventure.Day_04;
 
 namespace AdventOfCodeAdventure
 {
@@ -22,6 +23,10 @@ namespace AdventOfCodeAdventure
             // RucksackReArranger rucksackReArranger = new RucksackReArranger();
             // System.Console.WriteLine(rucksackReArranger.PrioritizeItems());
             // System.Console.WriteLine(rucksackReArranger.FindBadge());
+            
+            // Day 04 - Cleanup Assignments
+            // Cleanup cleanup = new Cleanup();
+            // System.Console.WriteLine(cleanup.FindOverlappingAssignments());
         }
     }
 }
