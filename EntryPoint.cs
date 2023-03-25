@@ -3,6 +3,7 @@ using AdventOfCodeAdventure.Day_01;
 using AdventOfCodeAdventure.Day_02;
 using AdventOfCodeAdventure.Day_03;
 using AdventOfCodeAdventure.Day_04;
+using AdventOfCodeAdventure.Day_05;
 
 namespace AdventOfCodeAdventure
 {
@@ -27,6 +28,11 @@ namespace AdventOfCodeAdventure
             // Day 04 - Cleanup Assignments
             // Cleanup cleanup = new Cleanup();
             // System.Console.WriteLine(cleanup.FindOverlappingAssignments());
+            
+            // Day 05 - Cargo Re-Arrangement
+            Crane crane = new Crane();
+            //System.Console.WriteLine(crane.GetTopCrates());
+            System.Console.WriteLine(crane.GetTopCratesWithNewCrane());
         }
     }
 }
