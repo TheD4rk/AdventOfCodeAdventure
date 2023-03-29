@@ -4,6 +4,7 @@ using AdventOfCodeAdventure.Day_02;
 using AdventOfCodeAdventure.Day_03;
 using AdventOfCodeAdventure.Day_04;
 using AdventOfCodeAdventure.Day_05;
+using AdventOfCodeAdventure.Day_06;
 
 namespace AdventOfCodeAdventure
 {
@@ -30,9 +31,14 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(cleanup.FindOverlappingAssignments());
             
             // Day 05 - Cargo Re-Arrangement
-            Crane crane = new Crane();
-            //System.Console.WriteLine(crane.GetTopCrates());
-            System.Console.WriteLine(crane.GetTopCratesWithNewCrane());
+            // Crane crane = new Crane();
+            // System.Console.WriteLine(crane.GetTopCrates());
+            // System.Console.WriteLine(crane.GetTopCratesWithNewCrane());
+            
+            // Day 06 - Device Data Stream
+            DeviceFixer deviceFixer = new DeviceFixer();
+            //System.Console.WriteLine(deviceFixer.GetCharacterCount());
+            System.Console.WriteLine(deviceFixer.GetMessageMarker());
         }
     }
 }
