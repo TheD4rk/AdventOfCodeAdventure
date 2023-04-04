@@ -6,6 +6,7 @@ using AdventOfCodeAdventure.Day_04;
 using AdventOfCodeAdventure.Day_05;
 using AdventOfCodeAdventure.Day_06;
 using AdventOfCodeAdventure.Day_07;
+using AdventOfCodeAdventure.Day_08;
 
 namespace AdventOfCodeAdventure
 {
@@ -44,6 +45,11 @@ namespace AdventOfCodeAdventure
             // Day 07 - File Deletion
             // CmdAnalyzer cmdAnalyzer = new CmdAnalyzer();
             // System.Console.WriteLine(cmdAnalyzer.GetDirectoriesTotalSize());
+            
+            // Day 08 - Treehouse
+            ForestAnalyzer forestAnalyzer = new ForestAnalyzer();
+            // System.Console.WriteLine(forestAnalyzer.GetVisibleTrees());
+            System.Console.WriteLine(forestAnalyzer.GetHighestScenicScore());
         }
     }
 }
