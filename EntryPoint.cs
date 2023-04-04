@@ -5,6 +5,7 @@ using AdventOfCodeAdventure.Day_03;
 using AdventOfCodeAdventure.Day_04;
 using AdventOfCodeAdventure.Day_05;
 using AdventOfCodeAdventure.Day_06;
+using AdventOfCodeAdventure.Day_07;
 
 namespace AdventOfCodeAdventure
 {
@@ -36,9 +37,13 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(crane.GetTopCratesWithNewCrane());
             
             // Day 06 - Device Data Stream
-            DeviceFixer deviceFixer = new DeviceFixer();
-            //System.Console.WriteLine(deviceFixer.GetCharacterCount());
-            System.Console.WriteLine(deviceFixer.GetMessageMarker());
+            // DeviceFixer deviceFixer = new DeviceFixer();
+            // System.Console.WriteLine(deviceFixer.GetCharacterCount());
+            // System.Console.WriteLine(deviceFixer.GetMessageMarker());
+            
+            // Day 07 - File Deletion
+            // CmdAnalyzer cmdAnalyzer = new CmdAnalyzer();
+            // System.Console.WriteLine(cmdAnalyzer.GetDirectoriesTotalSize());
         }
     }
 }
