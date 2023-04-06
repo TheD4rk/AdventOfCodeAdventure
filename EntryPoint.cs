@@ -7,6 +7,7 @@ using AdventOfCodeAdventure.Day_05;
 using AdventOfCodeAdventure.Day_06;
 using AdventOfCodeAdventure.Day_07;
 using AdventOfCodeAdventure.Day_08;
+using AdventOfCodeAdventure.Day_09;
 
 namespace AdventOfCodeAdventure
 {
@@ -47,9 +48,13 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(cmdAnalyzer.GetDirectoriesTotalSize());
             
             // Day 08 - Treehouse
-            ForestAnalyzer forestAnalyzer = new ForestAnalyzer();
+            // ForestAnalyzer forestAnalyzer = new ForestAnalyzer();
             // System.Console.WriteLine(forestAnalyzer.GetVisibleTrees());
-            System.Console.WriteLine(forestAnalyzer.GetHighestScenicScore());
+            // System.Console.WriteLine(forestAnalyzer.GetHighestScenicScore());
+            
+            // Day 09 - Rope Bridge
+            Rope rope = new Rope();
+            System.Console.WriteLine(rope.GetPointsVisited());
         }
     }
 }
