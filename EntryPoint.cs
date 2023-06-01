@@ -8,6 +8,7 @@ using AdventOfCodeAdventure.Day_06;
 using AdventOfCodeAdventure.Day_07;
 using AdventOfCodeAdventure.Day_08;
 using AdventOfCodeAdventure.Day_09;
+using AdventOfCodeAdventure.Day_10;
 
 namespace AdventOfCodeAdventure
 {
@@ -53,8 +54,13 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(forestAnalyzer.GetHighestScenicScore());
             
             // Day 09 - Rope Bridge
-            Rope rope = new Rope();
-            System.Console.WriteLine(rope.GetPointsVisited());
+            // Rope rope = new Rope();
+            // System.Console.WriteLine(rope.GetPointsVisited());
+            
+            // Day 10 - CPU Cycles
+            // CPUCommunication cpuCommunication = new CPUCommunication();
+            // System.Console.WriteLine(cpuCommunication.SignalStrength());
+            // cpuCommunication.DrawCRT();
         }
     }
 }
