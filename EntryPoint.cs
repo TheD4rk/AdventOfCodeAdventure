@@ -10,6 +10,7 @@ using AdventOfCodeAdventure.Day_08;
 using AdventOfCodeAdventure.Day_09;
 using AdventOfCodeAdventure.Day_10;
 using AdventOfCodeAdventure.Day_11;
+using AdventOfCodeAdventure.Day_12;
 
 namespace AdventOfCodeAdventure
 {
@@ -64,8 +65,13 @@ namespace AdventOfCodeAdventure
             // cpuCommunication.DrawCRT();
             
             // Day 11 - Monkeys
-            WorryWart worryWart = new WorryWart();
-            System.Console.WriteLine(worryWart.MonkeyBusinessLevel());
+            // WorryWart worryWart = new WorryWart();
+            // System.Console.WriteLine(worryWart.MonkeyBusinessLevel());
+            
+            // Day 12 - Pathfinding
+            Pathfinder pathfinder = new Pathfinder();
+            //System.Console.WriteLine(pathfinder.CalculateSteps());
+            System.Console.WriteLine(pathfinder.FindBestStartingSpot());
         }
     }
 }
