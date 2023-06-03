@@ -9,6 +9,7 @@ using AdventOfCodeAdventure.Day_07;
 using AdventOfCodeAdventure.Day_08;
 using AdventOfCodeAdventure.Day_09;
 using AdventOfCodeAdventure.Day_10;
+using AdventOfCodeAdventure.Day_11;
 
 namespace AdventOfCodeAdventure
 {
@@ -61,6 +62,10 @@ namespace AdventOfCodeAdventure
             // CPUCommunication cpuCommunication = new CPUCommunication();
             // System.Console.WriteLine(cpuCommunication.SignalStrength());
             // cpuCommunication.DrawCRT();
+            
+            // Day 11 - Monkeys
+            WorryWart worryWart = new WorryWart();
+            System.Console.WriteLine(worryWart.MonkeyBusinessLevel());
         }
     }
 }
