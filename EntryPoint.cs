@@ -11,6 +11,7 @@ using AdventOfCodeAdventure.Day_09;
 using AdventOfCodeAdventure.Day_10;
 using AdventOfCodeAdventure.Day_11;
 using AdventOfCodeAdventure.Day_12;
+using AdventOfCodeAdventure.Day_13;
 
 namespace AdventOfCodeAdventure
 {
@@ -69,9 +70,14 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(worryWart.MonkeyBusinessLevel());
             
             // Day 12 - Pathfinding
-            Pathfinder pathfinder = new Pathfinder();
-            //System.Console.WriteLine(pathfinder.CalculateSteps());
-            System.Console.WriteLine(pathfinder.FindBestStartingSpot());
+            // Pathfinder pathfinder = new Pathfinder();
+            // System.Console.WriteLine(pathfinder.CalculateSteps());
+            // System.Console.WriteLine(pathfinder.FindBestStartingSpot());
+            
+            // Day 13 - Packet checking
+            PacketChecker packetChecker = new PacketChecker();
+            // System.Console.WriteLine(packetChecker.SumCorrectPackets());
+            System.Console.WriteLine(packetChecker.IndexSpecificPackets());
         }
     }
 }
