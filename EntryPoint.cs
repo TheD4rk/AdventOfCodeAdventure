@@ -12,6 +12,7 @@ using AdventOfCodeAdventure.Day_10;
 using AdventOfCodeAdventure.Day_11;
 using AdventOfCodeAdventure.Day_12;
 using AdventOfCodeAdventure.Day_13;
+using AdventOfCodeAdventure.Day_14;
 
 namespace AdventOfCodeAdventure
 {
@@ -75,9 +76,13 @@ namespace AdventOfCodeAdventure
             // System.Console.WriteLine(pathfinder.FindBestStartingSpot());
             
             // Day 13 - Packet checking
-            PacketChecker packetChecker = new PacketChecker();
+            // PacketChecker packetChecker = new PacketChecker();
             // System.Console.WriteLine(packetChecker.SumCorrectPackets());
-            System.Console.WriteLine(packetChecker.IndexSpecificPackets());
+            // System.Console.WriteLine(packetChecker.IndexSpecificPackets());
+            
+            // Day 14 - Falling Sand
+            FallingSand fallingSand = new FallingSand();
+            System.Console.WriteLine(fallingSand.DropSand());
         }
     }
 }
